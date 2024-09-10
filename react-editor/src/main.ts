@@ -82,20 +82,48 @@ export default function () {
   on("CONVERT_VARIABLES_TO_JSON", async () => {
     const collections =
       await figma.variables.getLocalVariableCollectionsAsync();
+    const collectionsModes = collections.flatMap((collection) => {
+      return collection.modes;
+    }, []);
     const variables = await figma.variables.getLocalVariablesAsync();
     let jsonVariables = {};
 
     variables.forEach((variable) => {
       const path = variable.name.split("/");
-      // TODO: take the value depending on collections modes
-      const rawValue =
-        variable.valuesByMode[Object.keys(variable.valuesByMode)[0]];
-      const variableValue = findVariableValue(rawValue, variables);
+      let object = {};
+      switch (Object.keys(variable.valuesByMode).length) {
+        case 0:
+          return;
+        case 1:
+          const rawValue =
+            variable.valuesByMode[Object.keys(variable.valuesByMode)[0]];
+          const variableValue = findVariableValue(rawValue, variables);
 
-      const object = arrayToNestedObject(
-        path,
-        convertVariableValue(variableValue)
-      );
+          object = arrayToNestedObject(
+            path,
+            convertVariableValue(variableValue)
+          );
+          jsonVariables = merge(jsonVariables, object);
+          break;
+        default:
+          let objectByMode = {};
+          Object.keys(variable.valuesByMode).forEach((modeId) => {
+            const mode = collectionsModes.find(
+              (mode) => mode.modeId === modeId
+            );
+            if (!mode) {
+              return;
+            }
+            const rawValue = variable.valuesByMode[modeId];
+            const variableValue = findVariableValue(rawValue, variables);
+            objectByMode = merge(objectByMode, {
+              [mode.name]: convertVariableValue(variableValue),
+            });
+          });
+          object = arrayToNestedObject(path, objectByMode);
+          jsonVariables = merge(jsonVariables, object);
+      }
+
       jsonVariables = merge(jsonVariables, object);
     });
 

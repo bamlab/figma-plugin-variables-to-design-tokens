@@ -1,4 +1,4 @@
-import { on, showUI } from "@create-figma-plugin/utilities";
+import { emit, on, showUI } from "@create-figma-plugin/utilities";
 import merge from "lodash.merge";
 
 function arrayToNestedObject(arr: string[]) {
@@ -19,8 +19,8 @@ export default function () {
       jsonVariables = merge(jsonVariables, object);
     });
 
-    console.log(jsonVariables);
+    emit("CONVERTION_DONE", jsonVariables);
   });
 
-  showUI({ height: 240, width: 320 });
+  showUI({ height: 240, width: 320, themeColors: false });
 }

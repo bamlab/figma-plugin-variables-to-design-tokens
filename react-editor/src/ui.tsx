@@ -6,13 +6,23 @@ import {
   render,
   VerticalSpace,
 } from "@create-figma-plugin/ui";
-import { emit } from "@create-figma-plugin/utilities";
+import { emit, on } from "@create-figma-plugin/utilities";
 import { h } from "preact";
+import { useEffect, useState } from "preact/hooks";
+import ReactJson from "react-json-view";
+import { ConvertionDoneHandler } from "./types";
 
 function Plugin() {
   const convertVariablesToJson = async () => {
     emit("CONVERT_VARIABLES_TO_JSON");
   };
+  const [json, setJson] = useState({});
+
+  useEffect(() => {
+    on<ConvertionDoneHandler>("CONVERTION_DONE", (data) => {
+      setJson(data);
+    });
+  }, []);
 
   return (
     <Container space="medium">
@@ -20,6 +30,8 @@ function Plugin() {
       <Button fullWidth onClick={convertVariablesToJson}>
         Convert variables to JSON
       </Button>
+      <VerticalSpace space="small" />
+      <ReactJson src={json} />
       <VerticalSpace space="small" />
     </Container>
   );

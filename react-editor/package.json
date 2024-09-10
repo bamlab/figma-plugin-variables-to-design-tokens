@@ -5,6 +5,7 @@
     "lodash.merge": "^4.6.2",
     "preact": ">=10",
     "prismjs": "1.29.0",
+    "react-json-view": "^1.21.3",
     "react-simple-code-editor": "0.13.1"
   },
   "devDependencies": {

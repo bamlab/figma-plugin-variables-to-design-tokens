@@ -24,11 +24,25 @@ function Plugin() {
     });
   }, []);
 
+  function copyInClipboard(): void {
+    const jsonText = JSON.stringify(json, null, 2);
+    const textArea = document.createElement("textarea");
+    textArea.value = jsonText;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("Copy");
+    textArea.remove();
+  }
+
   return (
     <Container space="medium">
       <VerticalSpace space="small" />
       <Button fullWidth onClick={convertVariablesToJson}>
         Convert variables to JSON
+      </Button>
+      <VerticalSpace space="small" />
+      <Button fullWidth onClick={copyInClipboard}>
+        Copy in clipboard
       </Button>
       <VerticalSpace space="small" />
       <ReactJson src={json} />

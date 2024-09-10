@@ -91,8 +91,6 @@ export default function () {
       const rawValue =
         variable.valuesByMode[Object.keys(variable.valuesByMode)[0]];
       const variableValue = findVariableValue(rawValue, variables);
-      console.log("variableValue", variableValue);
-      console.log("path", path);
 
       const object = arrayToNestedObject(
         path,

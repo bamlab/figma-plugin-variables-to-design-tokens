@@ -11,7 +11,7 @@ function isVariableAlias(variable: VariableValue): variable is VariableAlias {
 }
 
 function isVariableRGB(variable: VariableValue): variable is RGB {
-  return (variable as RGBA).a === undefined;
+  return (variable as RGB).r !== undefined;
 }
 
 function isVariableRGBA(variable: VariableValue): variable is RGBA {
@@ -52,6 +52,18 @@ function convertVariableValue(variableValue: VariableValue) {
     return variableValue;
   }
 
+  if (isVariableRGBA(variableValue)) {
+    return (
+      "#" +
+      rgbHex(
+        variableValue.r * 255,
+        variableValue.g * 255,
+        variableValue.b * 255,
+        variableValue.a
+      )
+    );
+  }
+
   if (isVariableRGB(variableValue)) {
     return (
       "#" +
@@ -63,16 +75,9 @@ function convertVariableValue(variableValue: VariableValue) {
     );
   }
 
-  if (isVariableRGBA(variableValue)) {
-    return (
-      "#" +
-      rgbHex(
-        variableValue.r * 255,
-        variableValue.g * 255,
-        variableValue.b * 255,
-        variableValue.a
-      )
-    );
+  if (isVariableAlias(variableValue)) {
+    const variable = figma.variables.getVariableById(variableValue.id);
+    return `{${variable?.name.replaceAll("/", ".")}}`;
   }
 
   throw Error(`Variable value type not supported: ${variableValue}`);
@@ -90,39 +95,37 @@ export default function () {
 
     variables.forEach((variable) => {
       const path = variable.name.split("/");
+      path.push("value");
       let object = {};
-      switch (Object.keys(variable.valuesByMode).length) {
-        case 0:
-          return;
-        case 1:
-          const rawValue =
-            variable.valuesByMode[Object.keys(variable.valuesByMode)[0]];
-          const variableValue = findVariableValue(rawValue, variables);
+      // switch (Object.keys(variable.valuesByMode).length) {
+      //   case 0:
+      //     return;
+      //   case 1:
+      const rawValue =
+        variable.valuesByMode[Object.keys(variable.valuesByMode)[0]];
+      // const variableValue = findVariableValue(rawValue, variables);
 
-          object = arrayToNestedObject(
-            path,
-            convertVariableValue(variableValue)
-          );
-          jsonVariables = merge(jsonVariables, object);
-          break;
-        default:
-          let objectByMode = {};
-          Object.keys(variable.valuesByMode).forEach((modeId) => {
-            const mode = collectionsModes.find(
-              (mode) => mode.modeId === modeId
-            );
-            if (!mode) {
-              return;
-            }
-            const rawValue = variable.valuesByMode[modeId];
-            const variableValue = findVariableValue(rawValue, variables);
-            objectByMode = merge(objectByMode, {
-              [mode.name]: convertVariableValue(variableValue),
-            });
-          });
-          object = arrayToNestedObject(path, objectByMode);
-          jsonVariables = merge(jsonVariables, object);
-      }
+      object = arrayToNestedObject(path, convertVariableValue(rawValue));
+      jsonVariables = merge(jsonVariables, object);
+      //     break;
+      //   default:
+      //     let objectByMode = {};
+      //     Object.keys(variable.valuesByMode).forEach((modeId) => {
+      //       const mode = collectionsModes.find(
+      //         (mode) => mode.modeId === modeId
+      //       );
+      //       if (!mode) {
+      //         return;
+      //       }
+      //       const rawValue = variable.valuesByMode[modeId];
+      //       const variableValue = findVariableValue(rawValue, variables);
+      //       objectByMode = merge(objectByMode, {
+      //         [mode.name]: convertVariableValue(variableValue),
+      //       });
+      //     });
+      //     object = arrayToNestedObject(path, objectByMode);
+      //     jsonVariables = merge(jsonVariables, object);
+      // }
 
       jsonVariables = merge(jsonVariables, object);
     });
@@ -130,5 +133,5 @@ export default function () {
     emit("CONVERTION_DONE", jsonVariables);
   });
 
-  showUI({ height: 1000, width: 320, themeColors: false });
+  showUI({ height: 1000, width: 1000, themeColors: false });
 }

@@ -59,7 +59,12 @@ function Plugin() {
         Download
       </Button>
       <VerticalSpace space="small" />
-      <ReactJson src={json} />
+      <ReactJson
+        displayDataTypes={false}
+        enableClipboard={false}
+        theme={"apathy"}
+        src={json}
+      />
       <VerticalSpace space="small" />
     </Container>
   );

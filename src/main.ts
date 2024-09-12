@@ -133,5 +133,5 @@ export default function () {
     emit("CONVERTION_DONE", jsonVariables);
   });
 
-  showUI({ height: 1000, width: 1000, themeColors: false });
+  showUI({ height: 1000, width: 1000 });
 }

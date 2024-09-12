@@ -13,7 +13,7 @@ import { emit, on } from "@create-figma-plugin/utilities";
 import { h } from "preact";
 import { useEffect, useState } from "preact/hooks";
 import ReactJson from "react-json-view";
-import { ConvertionDoneHandler } from "./types";
+import { ConvertHandler, ConvertionDoneHandler } from "./types";
 import { TargetedEvent } from "preact/compat";
 
 export interface PluginProps {
@@ -28,17 +28,17 @@ export interface PluginProps {
 }
 
 function Plugin(props: PluginProps) {
-  const convertVariablesToJson = async () => {
-    emit("CONVERT_VARIABLES_TO_JSON");
-  };
   const [json, setJson] = useState({});
   const [selectedModes, setSelectedModes] = useState<{
-    [key: string]: string;
+    [key: string]: { modeId: string; name: string };
   }>(
     props.collections.reduce(
       (acc, collection) => ({
         ...acc,
-        [collection.id]: collection.modes[0].name,
+        [collection.id]: {
+          modeId: collection.modes[0].modeId,
+          name: collection.modes[0].name,
+        },
       }),
       {}
     )
@@ -49,6 +49,17 @@ function Plugin(props: PluginProps) {
       setJson(data);
     });
   }, []);
+
+  const convertVariablesToJson = async () => {
+    emit<ConvertHandler>(
+      "CONVERT_VARIABLES_TO_JSON",
+      Object.keys(selectedModes).map((collectionId) => ({
+        collectionId,
+        modeId: selectedModes[collectionId].modeId,
+        modeName: selectedModes[collectionId].name,
+      }))
+    );
+  };
 
   function copyInClipboard(): void {
     const jsonText = JSON.stringify(json, null, 2);
@@ -61,10 +72,13 @@ function Plugin(props: PluginProps) {
   }
 
   function download(): void {
+    const nameArray = Object.values(selectedModes).map((mode) => mode.name);
+    const fileName = Array.from(new Set(nameArray)).join(".");
+
     const file = new Blob([JSON.stringify(json)], { type: "application/json" });
     const element = document.createElement("a");
     element.href = URL.createObjectURL(file);
-    element.download = "tokens.json";
+    element.download = `${fileName}.tokens.json`;
     document.body.appendChild(element); // Required for this to work in FireFox
     element.click();
     element.remove();
@@ -72,12 +86,16 @@ function Plugin(props: PluginProps) {
 
   function handleChange(
     event: TargetedEvent<HTMLInputElement, Event>,
-    collectionId: string
+    collectionId: string,
+    modeId: string
   ): void {
     const newValue = event.currentTarget.value;
     setSelectedModes((prev) => ({
       ...prev,
-      [collectionId]: newValue,
+      [collectionId]: {
+        modeId: modeId,
+        name: newValue,
+      },
     }));
   }
 
@@ -91,8 +109,16 @@ function Plugin(props: PluginProps) {
               <Text>{collection.name} :</Text>
               <SegmentedControl
                 options={collection.modes.map((mode) => ({ value: mode.name }))}
-                value={selectedModes?.[collection.id]}
-                onChange={(event) => handleChange(event, collection.id)}
+                value={selectedModes?.[collection.id].name}
+                onChange={(event) =>
+                  handleChange(
+                    event,
+                    collection.id,
+                    collection.modes.find(
+                      (mode) => mode.name === event.currentTarget.value
+                    )?.modeId ?? ""
+                  )
+                }
               />
             </Columns>
             <VerticalSpace space="small" />

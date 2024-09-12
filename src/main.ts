@@ -1,6 +1,7 @@
 import { emit, on, showUI } from "@create-figma-plugin/utilities";
 import merge from "lodash.merge";
 import rgbHex from "rgb-hex";
+import { ConvertHandler } from "./types";
 
 function arrayToNestedObject(arr: string[], value: any) {
   return arr.reduceRight((acc, curr) => ({ [curr]: acc }), value);
@@ -16,27 +17,6 @@ function isVariableRGB(variable: VariableValue): variable is RGB {
 
 function isVariableRGBA(variable: VariableValue): variable is RGBA {
   return (variable as RGBA).a !== undefined;
-}
-
-function findVariableValue(
-  variableValue: VariableValue,
-  variables: Variable[]
-) {
-  let currentVariableValue = variableValue;
-  while (isVariableAlias(currentVariableValue)) {
-    const variableId = currentVariableValue.id;
-    const variableFound = variables.find(
-      (variable) => variable.id === variableId
-    );
-    if (!variableFound) {
-      throw Error(`Variable ID ${variableId} was not found`);
-    }
-
-    currentVariableValue =
-      variableFound.valuesByMode[Object.keys(variableFound.valuesByMode)[0]];
-  }
-
-  return currentVariableValue;
 }
 
 function convertVariableValue(variableValue: VariableValue) {
@@ -84,48 +64,23 @@ function convertVariableValue(variableValue: VariableValue) {
 }
 
 export default async function () {
-  on("CONVERT_VARIABLES_TO_JSON", async () => {
-    const collections =
-      await figma.variables.getLocalVariableCollectionsAsync();
-    const collectionsModes = collections.flatMap((collection) => {
-      return collection.modes;
-    }, []);
+  on<ConvertHandler>("CONVERT_VARIABLES_TO_JSON", async (modes) => {
+    console.log("modes", modes);
     const variables = await figma.variables.getLocalVariablesAsync();
     let jsonVariables = {};
 
     variables.forEach((variable) => {
       const path = variable.name.split("/");
+      const variableModes = Object.keys(variable.valuesByMode);
+      const variableCollectionId = variable.variableCollectionId;
       path.push("value");
       let object = {};
-      // switch (Object.keys(variable.valuesByMode).length) {
-      //   case 0:
-      //     return;
-      //   case 1:
       const rawValue =
-        variable.valuesByMode[Object.keys(variable.valuesByMode)[0]];
-      // const variableValue = findVariableValue(rawValue, variables);
-
+        variable.valuesByMode[
+          modes.find((mode) => mode.collectionId == variableCollectionId)
+            ?.modeId ?? variableModes[0]
+        ];
       object = arrayToNestedObject(path, convertVariableValue(rawValue));
-      jsonVariables = merge(jsonVariables, object);
-      //     break;
-      //   default:
-      //     let objectByMode = {};
-      //     Object.keys(variable.valuesByMode).forEach((modeId) => {
-      //       const mode = collectionsModes.find(
-      //         (mode) => mode.modeId === modeId
-      //       );
-      //       if (!mode) {
-      //         return;
-      //       }
-      //       const rawValue = variable.valuesByMode[modeId];
-      //       const variableValue = findVariableValue(rawValue, variables);
-      //       objectByMode = merge(objectByMode, {
-      //         [mode.name]: convertVariableValue(variableValue),
-      //       });
-      //     });
-      //     object = arrayToNestedObject(path, objectByMode);
-      //     jsonVariables = merge(jsonVariables, object);
-      // }
 
       jsonVariables = merge(jsonVariables, object);
     });

@@ -83,7 +83,7 @@ function convertVariableValue(variableValue: VariableValue) {
   throw Error(`Variable value type not supported: ${variableValue}`);
 }
 
-export default function () {
+export default async function () {
   on("CONVERT_VARIABLES_TO_JSON", async () => {
     const collections =
       await figma.variables.getLocalVariableCollectionsAsync();
@@ -133,5 +133,18 @@ export default function () {
     emit("CONVERTION_DONE", jsonVariables);
   });
 
-  showUI({ height: 1000, width: 1000 });
+  const collections = await figma.variables.getLocalVariableCollectionsAsync();
+  const uiCollections = collections.map((collection) => {
+    return {
+      id: collection.id,
+      name: collection.name,
+      modes: collection.modes.map((mode) => {
+        return {
+          modeId: mode.modeId,
+          name: mode.name,
+        };
+      }),
+    };
+  });
+  showUI({ height: 1000, width: 1000 }, { collections: uiCollections });
 }

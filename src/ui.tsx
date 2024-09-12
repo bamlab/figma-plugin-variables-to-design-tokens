@@ -34,6 +34,16 @@ function Plugin() {
     textArea.remove();
   }
 
+  function download(): void {
+    const file = new Blob([JSON.stringify(json)], { type: "application/json" });
+    const element = document.createElement("a");
+    element.href = URL.createObjectURL(file);
+    element.download = "tokens.json";
+    document.body.appendChild(element); // Required for this to work in FireFox
+    element.click();
+    element.remove();
+  }
+
   return (
     <Container space="medium">
       <VerticalSpace space="small" />
@@ -43,6 +53,10 @@ function Plugin() {
       <VerticalSpace space="small" />
       <Button fullWidth onClick={copyInClipboard}>
         Copy in clipboard
+      </Button>
+      <VerticalSpace space="small" />
+      <Button fullWidth onClick={download}>
+        Download
       </Button>
       <VerticalSpace space="small" />
       <ReactJson src={json} />

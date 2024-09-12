@@ -1,5 +1,4 @@
 import "!prismjs/themes/prism.css";
-
 import {
   Button,
   Columns,
@@ -20,111 +19,89 @@ export interface PluginProps {
   collections: {
     id: string;
     name: string;
-    modes: Array<{
-      modeId: string;
-      name: string;
-    }>;
+    modes: Array<{ modeId: string; name: string }>;
   }[];
 }
 
-function Plugin(props: PluginProps) {
+function Plugin({ collections }: PluginProps) {
   const [json, setJson] = useState({});
   const [selectedModes, setSelectedModes] = useState<{
     [key: string]: { modeId: string; name: string };
   }>(
-    props.collections.reduce(
-      (acc, collection) => ({
+    collections.reduce(
+      (acc, { id, modes }) => ({
         ...acc,
-        [collection.id]: {
-          modeId: collection.modes[0].modeId,
-          name: collection.modes[0].name,
-        },
+        [id]: { modeId: modes[0].modeId, name: modes[0].name },
       }),
       {}
     )
   );
 
   useEffect(() => {
-    on<ConvertionDoneHandler>("CONVERTION_DONE", (data) => {
-      setJson(data);
-    });
+    on<ConvertionDoneHandler>("CONVERTION_DONE", setJson);
   }, []);
 
-  const convertVariablesToJson = async () => {
-    emit<ConvertHandler>(
-      "CONVERT_VARIABLES_TO_JSON",
-      Object.keys(selectedModes).map((collectionId) => ({
-        collectionId,
-        modeId: selectedModes[collectionId].modeId,
-        modeName: selectedModes[collectionId].name,
-      }))
-    );
+  const convertVariablesToJson = () => {
+    const modeSelections = Object.keys(selectedModes).map((collectionId) => ({
+      collectionId,
+      modeId: selectedModes[collectionId].modeId,
+      modeName: selectedModes[collectionId].name,
+    }));
+    emit<ConvertHandler>("CONVERT_VARIABLES_TO_JSON", modeSelections);
   };
 
-  function copyInClipboard(): void {
+  const copyInClipboard = () => {
     const jsonText = JSON.stringify(json, null, 2);
-    const textArea = document.createElement("textarea");
-    textArea.value = jsonText;
-    document.body.appendChild(textArea);
-    textArea.select();
-    document.execCommand("Copy");
-    textArea.remove();
-  }
+    navigator.clipboard.writeText(jsonText);
+  };
 
-  function download(): void {
-    const nameArray = Object.values(selectedModes).map((mode) => mode.name);
-    const fileName = Array.from(new Set(nameArray)).join(".");
-
+  const download = () => {
+    const fileName = Array.from(
+      new Set(Object.values(selectedModes).map((mode) => mode.name))
+    ).join(".");
     const file = new Blob([JSON.stringify(json)], { type: "application/json" });
     const element = document.createElement("a");
     element.href = URL.createObjectURL(file);
     element.download = `${fileName}.tokens.json`;
-    document.body.appendChild(element); // Required for this to work in FireFox
+    document.body.appendChild(element);
     element.click();
     element.remove();
-  }
+  };
 
-  function handleChange(
-    event: TargetedEvent<HTMLInputElement, Event>,
+  const handleChange = (
+    event: TargetedEvent<HTMLInputElement>,
     collectionId: string,
     modeId: string
-  ): void {
-    const newValue = event.currentTarget.value;
+  ) => {
     setSelectedModes((prev) => ({
       ...prev,
-      [collectionId]: {
-        modeId: modeId,
-        name: newValue,
-      },
+      [collectionId]: { modeId, name: event.currentTarget.value },
     }));
-  }
+  };
 
   return (
     <Container space="medium">
       <VerticalSpace space="small" />
-      {props.collections.map((collection) => {
-        return (
-          <Container space="small">
-            <Columns>
-              <Text>{collection.name} :</Text>
-              <SegmentedControl
-                options={collection.modes.map((mode) => ({ value: mode.name }))}
-                value={selectedModes?.[collection.id].name}
-                onChange={(event) =>
-                  handleChange(
-                    event,
-                    collection.id,
-                    collection.modes.find(
-                      (mode) => mode.name === event.currentTarget.value
-                    )?.modeId ?? ""
-                  )
-                }
-              />
-            </Columns>
-            <VerticalSpace space="small" />
-          </Container>
-        );
-      })}
+      {collections.map(({ id, name, modes }) => (
+        <Container key={id} space="small">
+          <Columns>
+            <Text>{name} :</Text>
+            <SegmentedControl
+              options={modes.map(({ name }) => ({ value: name }))}
+              value={selectedModes?.[id]?.name}
+              onChange={(event) =>
+                handleChange(
+                  event,
+                  id,
+                  modes.find((mode) => mode.name === event.currentTarget.value)
+                    ?.modeId ?? ""
+                )
+              }
+            />
+          </Columns>
+          <VerticalSpace space="small" />
+        </Container>
+      ))}
       <VerticalSpace space="small" />
       <Button fullWidth onClick={convertVariablesToJson}>
         Convert variables to JSON
@@ -141,7 +118,7 @@ function Plugin(props: PluginProps) {
       <ReactJson
         displayDataTypes={false}
         enableClipboard={false}
-        theme={"apathy"}
+        theme="apathy"
         src={json}
       />
       <VerticalSpace space="small" />

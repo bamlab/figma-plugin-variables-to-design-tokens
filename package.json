@@ -26,7 +26,7 @@
       "figma"
     ],
     "id": "react-editor",
-    "name": "React Editor",
+    "name": "Multi-brand variables to design tokens",
     "main": "src/main.ts",
     "ui": "src/ui.tsx"
   }

@@ -1,53 +1,8 @@
 import { emit, on, showUI } from "@create-figma-plugin/utilities";
 import merge from "lodash.merge";
-import rgbHex from "rgb-hex";
 import { ConvertHandler } from "../common/types";
-
-const arrayToNestedObject = (arr: string[], value: any) =>
-  arr.reduceRight((acc, curr) => ({ [curr]: acc }), value);
-
-const isVariableAlias = (variable: VariableValue): variable is VariableAlias =>
-  (variable as VariableAlias).id !== undefined;
-
-const isVariableRGB = (variable: VariableValue): variable is RGB =>
-  (variable as RGB).r !== undefined;
-
-const isVariableRGBA = (variable: VariableValue): variable is RGBA =>
-  (variable as RGBA).a !== undefined;
-
-const convertVariableValue = (variableValue: VariableValue) => {
-  if (
-    typeof variableValue === "string" ||
-    typeof variableValue === "number" ||
-    typeof variableValue === "boolean"
-  ) {
-    return variableValue;
-  }
-
-  if (isVariableRGBA(variableValue)) {
-    return `#${rgbHex(
-      variableValue.r * 255,
-      variableValue.g * 255,
-      variableValue.b * 255,
-      variableValue.a
-    )}`;
-  }
-
-  if (isVariableRGB(variableValue)) {
-    return `#${rgbHex(
-      variableValue.r * 255,
-      variableValue.g * 255,
-      variableValue.b * 255
-    )}`;
-  }
-
-  if (isVariableAlias(variableValue)) {
-    const variable = figma.variables.getVariableById(variableValue.id);
-    return `{${variable?.name.replaceAll("/", ".")}}`;
-  }
-
-  throw new Error(`Variable value type not supported: ${variableValue}`);
-};
+import { arrayToNestedObject } from "./utils";
+import { convertVariableValue } from "./variable-converters";
 
 export default async function () {
   on<ConvertHandler>("CONVERT_VARIABLES_TO_JSON", async (modes) => {

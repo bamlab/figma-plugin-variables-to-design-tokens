@@ -12,7 +12,7 @@ import { emit, on } from "@create-figma-plugin/utilities";
 import { h } from "preact";
 import { useEffect, useState } from "preact/hooks";
 import ReactJson from "react-json-view";
-import { ConvertHandler, ConvertionDoneHandler } from "./types";
+import { ConvertHandler, ConvertionDoneHandler } from "../common/types";
 import { TargetedEvent } from "preact/compat";
 
 export interface PluginProps {

@@ -1,7 +1,7 @@
 import { emit, on, showUI } from "@create-figma-plugin/utilities";
 import merge from "lodash.merge";
 import rgbHex from "rgb-hex";
-import { ConvertHandler } from "./types";
+import { ConvertHandler } from "../common/types";
 
 const arrayToNestedObject = (arr: string[], value: any) =>
   arr.reduceRight((acc, curr) => ({ [curr]: acc }), value);

@@ -27,7 +27,7 @@
     ],
     "id": "react-editor",
     "name": "Multi-brand variables to design tokens",
-    "main": "src/main.ts",
-    "ui": "src/ui.tsx"
+    "main": "src/main/main.ts",
+    "ui": "src/ui/ui.tsx"
   }
 }

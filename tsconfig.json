@@ -9,5 +9,6 @@
     "skipLibCheck": true,
     "typeRoots": ["node_modules/@figma", "node_modules/@types"]
   },
+  "exclude": ["**/*.test.ts", "**/*.test.tsx", "src/testing"],
   "include": ["src/**/*.ts", "src/**/*.tsx"]
 }

@@ -1,11 +1,10 @@
 import { emit, on, showUI } from "@create-figma-plugin/utilities";
 import merge from "lodash.merge";
-import { ConvertHandler } from "../common/types";
+import { ConvertHandler, ModesType } from "../common/types";
 import { arrayToNestedObject } from "./utils";
 import { convertVariableValue } from "./variable-converters";
 
-export default async function () {
-  on<ConvertHandler>("CONVERT_VARIABLES_TO_JSON", async (modes) => {
+export const convertAllVariablesToJson = async (modes: ModesType) => {
     const variables = await figma.variables.getLocalVariablesAsync();
     let jsonVariables = {};
 
@@ -23,6 +22,13 @@ export default async function () {
       const object = arrayToNestedObject(path, convertVariableValue(rawValue));
       jsonVariables = merge(jsonVariables, object);
     });
+
+    return jsonVariables
+}
+
+export default async function () {
+  on<ConvertHandler>("CONVERT_VARIABLES_TO_JSON", async (modes) => {
+    const jsonVariables = await convertAllVariablesToJson(modes)
 
     emit("CONVERSION_DONE", jsonVariables);
   });

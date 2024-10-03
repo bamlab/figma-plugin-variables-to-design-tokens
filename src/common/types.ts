@@ -5,9 +5,11 @@ export interface ConvertionDoneHandler extends EventHandler {
   handler: (data: string) => void;
 }
 
+export type ModesType = { collectionId: string; modeId: string; modeName: string }[]
+
 export interface ConvertHandler extends EventHandler {
   name: "CONVERT_VARIABLES_TO_JSON";
   handler: (
-    modes: { collectionId: string; modeId: string; modeName: string }[]
+    modes: ModesType
   ) => void;
 }

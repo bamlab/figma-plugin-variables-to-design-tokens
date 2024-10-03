@@ -4,7 +4,7 @@
  * 
  * Without this function, all properties except for the id are omitted :'(
  */
-const convertVariablesToCopiableString = (variables) => {
+export const convertVariablesToCopiableString = (variables: Variable[]) => {
   const converted = variables.map((variable) => {
     return {
       id: variable.id,

@@ -1,4 +1,5 @@
 import rgbHex from "rgb-hex";
+import { getCollectionVariableName } from "./getCollectionVariableName";
 
 const isVariableAlias = (variable: VariableValue): variable is VariableAlias =>
   (variable as VariableAlias).id !== undefined;
@@ -37,7 +38,49 @@ export const convertVariableValue = (variableValue: VariableValue) => {
 
   if (isVariableAlias(variableValue)) {
     const variable = figma.variables.getVariableById(variableValue.id);
-    return `{${variable?.name.replaceAll("/", ".")}}`;
+
+    return `${variable?.name.replaceAll("/", ".")}}`;
+  }
+
+  throw new Error(`Variable value type not supported: ${variableValue}`);
+};
+
+export const convertVariableValueWithPrefix = async (variableValue: VariableValue) => {
+  if (
+    typeof variableValue === "string" ||
+    typeof variableValue === "number" ||
+    typeof variableValue === "boolean"
+  ) {
+    return variableValue;
+  }
+
+  if (isVariableRGBA(variableValue)) {
+    return `#${rgbHex(
+      variableValue.r * 255,
+      variableValue.g * 255,
+      variableValue.b * 255,
+      variableValue.a
+    )}`;
+  }
+
+  if (isVariableRGB(variableValue)) {
+    return `#${rgbHex(
+      variableValue.r * 255,
+      variableValue.g * 255,
+      variableValue.b * 255
+    )}`;
+  }
+
+  if (isVariableAlias(variableValue)) {
+    const variable = figma.variables.getVariableById(variableValue.id);
+
+    if (!variable?.variableCollectionId) {
+      throw new Error("Variable collection id not found");
+    }
+
+    const prefix = await getCollectionVariableName(variable?.variableCollectionId);
+
+    return `{${prefix}.${variable?.name.replaceAll("/", ".")}}`;
   }
 
   throw new Error(`Variable value type not supported: ${variableValue}`);

@@ -5,6 +5,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 0.9333333373069763, g: 0.9607843160629272, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1190",
@@ -12,6 +13,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 0.8549019694328308, g: 0.9137254953384399, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1191",
@@ -19,6 +21,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 0.7411764860153198, g: 0.8509804010391235, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1192",
@@ -26,6 +29,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 0.5647059082984924, g: 0.7607843279838562, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1193",
@@ -33,6 +37,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 0.32549020648002625, g: 0.6078431606292725, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1194",
@@ -45,6 +50,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1195",
@@ -57,6 +63,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1196",
@@ -69,6 +76,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1197",
@@ -81,6 +89,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1198",
@@ -93,6 +102,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1199",
@@ -105,6 +115,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1200",
@@ -117,6 +128,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1201",
@@ -129,6 +141,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1202",
@@ -141,6 +154,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1203",
@@ -153,6 +167,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1204",
@@ -165,6 +180,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1205",
@@ -177,6 +193,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1206",
@@ -189,6 +206,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1207",
@@ -201,6 +219,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1208",
@@ -213,6 +232,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1209",
@@ -225,6 +245,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1210",
@@ -237,6 +258,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1211",
@@ -249,6 +271,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1212",
@@ -261,6 +284,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1213",
@@ -273,6 +297,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1214",
@@ -285,6 +310,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1215",
@@ -297,6 +323,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1216",
@@ -309,6 +336,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1217",
@@ -321,6 +349,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1218",
@@ -333,6 +362,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1219",
@@ -345,6 +375,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1220",
@@ -357,6 +388,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1221",
@@ -369,6 +401,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1222",
@@ -376,6 +409,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 0.95686274766922, g: 0.9450980424880981, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1223",
@@ -383,6 +417,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 0.9215686321258545, g: 0.9019607901573181, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1224",
@@ -390,6 +425,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 0.8549019694328308, g: 0.8156862854957581, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1225",
@@ -397,6 +433,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 0.7490196228027344, g: 0.6705882549285889, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1226",
@@ -404,6 +441,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 0.6313725709915161, g: 0.48235294222831726, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1227",
@@ -411,6 +449,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 0.5215686559677124, g: 0.27450981736183167, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1228",
@@ -418,6 +457,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 0.4745098054409027, g: 0.125490203499794, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1229",
@@ -430,6 +470,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1230",
@@ -442,6 +483,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1231",
@@ -454,6 +496,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1232",
@@ -466,6 +509,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1233",
@@ -478,6 +522,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1234",
@@ -485,6 +530,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 1, g: 0.8823529481887817, b: 0.8823529481887817, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1235",
@@ -492,6 +538,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 1, g: 0.7843137383460999, b: 0.7843137383460999, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1236",
@@ -499,6 +546,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 1, g: 0.6352941393852234, b: 0.6352941393852234, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1237",
@@ -511,6 +559,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1238",
@@ -523,6 +572,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1239",
@@ -535,6 +585,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1240",
@@ -547,6 +598,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1241",
@@ -559,6 +611,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1242",
@@ -571,6 +624,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1243",
@@ -583,6 +637,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1244",
@@ -590,6 +645,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 1, g: 0.9843137264251709, b: 0.9215686321258545, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1245",
@@ -597,6 +653,7 @@ export const variablesFixtures = [
     valuesByMode: {
       "1:0": { r: 1, g: 0.95686274766922, b: 0.7764706015586853, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1246",
@@ -609,6 +666,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1247",
@@ -621,6 +679,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1248",
@@ -633,6 +692,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1249",
@@ -645,6 +705,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1250",
@@ -657,6 +718,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1251",
@@ -669,6 +731,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1252",
@@ -681,6 +744,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1253",
@@ -693,6 +757,7 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1254",
@@ -705,16 +770,19 @@ export const variablesFixtures = [
         a: 1,
       },
     },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1256",
     name: "color/grey/0",
     valuesByMode: { "1:0": { r: 1, g: 1, b: 1, a: 1 } },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:3:1257",
     name: "color/grey/1000",
     valuesByMode: { "1:0": { r: 0, g: 0, b: 0, a: 1 } },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:6:529",
@@ -725,6 +793,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1222" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1232" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:10:308",
@@ -735,6 +804,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1223" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1231" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:13:2",
@@ -745,6 +815,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1225" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1229" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:13:3",
@@ -755,6 +826,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1227" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1227" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:13:4",
@@ -765,6 +837,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1229" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1225" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:13:5",
@@ -775,6 +848,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1231" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1223" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:13:6",
@@ -785,6 +859,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1232" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1222" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:13:7",
@@ -795,6 +870,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1189" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1199" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:13:8",
@@ -805,6 +881,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1190" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1198" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:13:9",
@@ -815,6 +892,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1192" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1196" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:13:10",
@@ -825,6 +903,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1194" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1194" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:13:11",
@@ -835,6 +914,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1196" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1192" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:13:12",
@@ -845,6 +925,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1198" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1190" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:13:13",
@@ -855,6 +936,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1199" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1189" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:18:891",
@@ -863,6 +945,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:18:892",
@@ -871,6 +954,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:904" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:904" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:18:894",
@@ -879,6 +963,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:906" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:18:895",
@@ -887,6 +972,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:18:896",
@@ -895,6 +981,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:4" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:18:897",
@@ -903,6 +990,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:18:898",
@@ -911,6 +999,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:905" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:905" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:18:899",
@@ -921,6 +1010,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1211" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1221" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:18:900",
@@ -931,6 +1021,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1212" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1220" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:18:901",
@@ -941,6 +1032,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1214" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1218" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:18:902",
@@ -951,6 +1043,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1216" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1216" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:18:903",
@@ -961,6 +1054,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1218" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1214" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:18:904",
@@ -971,6 +1065,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1220" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1212" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:18:905",
@@ -981,6 +1076,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1221" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1211" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:18:906",
@@ -991,6 +1087,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1256" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1257" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:18:907",
@@ -1001,6 +1098,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1257" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1256" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:23:14",
@@ -1009,6 +1107,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:23:15",
@@ -1017,6 +1116,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:904" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:904" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:23:16",
@@ -1025,6 +1125,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:23:17",
@@ -1033,6 +1134,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:23:18",
@@ -1041,6 +1143,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:23:19",
@@ -1049,6 +1152,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:23:20",
@@ -1057,6 +1161,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:23:21",
@@ -1065,6 +1170,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:23:23",
@@ -1073,6 +1179,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:35:793",
@@ -1083,6 +1190,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1200" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1210" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:794",
@@ -1093,6 +1201,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1201" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1209" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:795",
@@ -1103,6 +1212,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1203" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1207" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:796",
@@ -1113,6 +1223,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1205" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1205" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:797",
@@ -1123,6 +1234,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1207" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1203" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:798",
@@ -1133,6 +1245,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1209" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1201" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:799",
@@ -1143,6 +1256,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1210" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1200" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:802",
@@ -1153,6 +1267,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1244" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1254" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:803",
@@ -1163,6 +1278,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1245" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1253" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:804",
@@ -1173,6 +1289,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1247" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1251" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:805",
@@ -1183,6 +1300,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1249" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1249" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:806",
@@ -1193,6 +1311,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1251" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1247" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:807",
@@ -1203,6 +1322,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1253" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1245" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:808",
@@ -1213,6 +1333,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1254" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1244" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:811",
@@ -1223,6 +1344,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1233" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1243" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:812",
@@ -1233,6 +1355,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1234" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1242" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:813",
@@ -1243,6 +1366,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1236" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1240" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:814",
@@ -1253,6 +1377,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1238" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1238" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:815",
@@ -1263,6 +1388,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1240" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1236" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:816",
@@ -1273,6 +1399,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1242" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1234" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:817",
@@ -1283,6 +1410,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1243" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1233" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1238",
@@ -1293,6 +1421,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1222" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1232" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1239",
@@ -1303,6 +1432,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1223" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1231" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1240",
@@ -1313,6 +1443,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1225" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1229" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1241",
@@ -1323,6 +1454,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1227" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1227" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1242",
@@ -1333,6 +1465,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1229" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1225" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1243",
@@ -1343,6 +1476,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1231" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1223" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1244",
@@ -1353,6 +1487,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1232" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1222" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1246",
@@ -1363,6 +1498,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1222" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1232" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1247",
@@ -1373,6 +1509,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1223" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1231" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1248",
@@ -1383,6 +1520,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1225" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1229" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1249",
@@ -1393,6 +1531,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1227" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1227" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1250",
@@ -1403,6 +1542,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1229" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1225" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1251",
@@ -1413,6 +1553,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1231" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1223" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:35:1252",
@@ -1423,6 +1564,7 @@ export const variablesFixtures = [
       "2079:1": { type: "VARIABLE_ALIAS", id: "VariableID:3:1232" },
       "2079:2": { type: "VARIABLE_ALIAS", id: "VariableID:3:1222" },
     },
+    variableCollectionId: "VariableCollectionId:6:527",
   },
   {
     id: "VariableID:39:164",
@@ -1431,6 +1573,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:4" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:4" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:39:180",
@@ -1439,6 +1582,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:39:182",
@@ -1447,6 +1591,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:39:188",
@@ -1455,6 +1600,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:903" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:903" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:39:190",
@@ -1463,6 +1609,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:39:196",
@@ -1471,6 +1618,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:903" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:903" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:39:198",
@@ -1479,6 +1627,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:4" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:4" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:39:204",
@@ -1487,6 +1636,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:39:206",
@@ -1495,6 +1645,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:39:207",
@@ -1503,6 +1654,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:39:212",
@@ -1511,6 +1663,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:39:213",
@@ -1519,6 +1672,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:40:2",
@@ -1527,6 +1681,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2052",
@@ -1535,6 +1690,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2053",
@@ -1543,6 +1699,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2055",
@@ -1551,6 +1708,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:903" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:903" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2061",
@@ -1559,6 +1717,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2063",
@@ -1567,6 +1726,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2068",
@@ -1575,6 +1735,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2072",
@@ -1583,6 +1744,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2073",
@@ -1591,6 +1753,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:6:529" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:6:529" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2074",
@@ -1599,6 +1762,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:811" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:811" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2075",
@@ -1607,6 +1771,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:796" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:796" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2076",
@@ -1615,6 +1780,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:906" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:906" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2077",
@@ -1623,6 +1789,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2078",
@@ -1631,6 +1798,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2079",
@@ -1639,6 +1807,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2080",
@@ -1647,6 +1816,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:4" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:4" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2082",
@@ -1655,6 +1825,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:814" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:814" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2083",
@@ -1663,6 +1834,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:814" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:814" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:47:2085",
@@ -1671,6 +1843,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:916",
@@ -1679,6 +1852,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:917",
@@ -1687,6 +1861,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:918",
@@ -1695,6 +1870,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:919",
@@ -1703,6 +1879,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:920",
@@ -1711,6 +1888,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:922",
@@ -1719,6 +1897,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:923",
@@ -1727,6 +1906,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:924",
@@ -1735,6 +1915,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:925",
@@ -1743,6 +1924,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:2375",
@@ -1751,6 +1933,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:2376",
@@ -1759,6 +1942,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:2378",
@@ -1767,6 +1951,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:2379",
@@ -1775,6 +1960,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:2382",
@@ -1783,6 +1969,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:2383",
@@ -1791,6 +1978,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:2384",
@@ -1799,6 +1987,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:2385",
@@ -1807,6 +1996,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:2386",
@@ -1815,6 +2005,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:2387",
@@ -1823,6 +2014,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:133:2388",
@@ -1831,6 +2023,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:146:3381",
@@ -1839,6 +2032,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:146:3382",
@@ -1847,6 +2041,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:10" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:10" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:146:3383",
@@ -1855,6 +2050,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:146:3385",
@@ -1863,6 +2059,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:146:3386",
@@ -1871,6 +2068,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:4" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:4" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:1482",
@@ -1879,6 +2077,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:1483",
@@ -1887,6 +2086,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:2260",
@@ -1895,6 +2095,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:2261",
@@ -1903,6 +2104,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:904" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:904" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:2262",
@@ -1911,6 +2113,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:2263",
@@ -1919,6 +2122,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:2264",
@@ -1927,6 +2131,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:2265",
@@ -1935,6 +2140,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:7080",
@@ -1943,6 +2149,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:7081",
@@ -1951,6 +2158,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:7082",
@@ -1959,6 +2167,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:7083",
@@ -1967,6 +2176,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:2" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:2" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:7084",
@@ -1975,6 +2185,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:163:7085",
@@ -1983,6 +2194,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:904" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:904" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:167:8914",
@@ -1991,6 +2203,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:167:8915",
@@ -1999,6 +2212,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:167:8916",
@@ -2007,6 +2221,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:167:8917",
@@ -2015,6 +2230,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:6:529" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:6:529" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:167:8918",
@@ -2023,6 +2239,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:167:8919",
@@ -2031,6 +2248,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:2" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:2" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:167:8921",
@@ -2039,6 +2257,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:904" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:904" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:167:8922",
@@ -2047,51 +2266,61 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:178:1252",
     name: "font/family/tagline",
     valuesByMode: { "178:0": "vesterbro", "2079:4": "Montserrat" },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:178:1253",
     name: "font/family/title",
     valuesByMode: { "178:0": "inter", "2079:4": "ubuntu" },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:178:1260",
     name: "font/family/text",
     valuesByMode: { "178:0": "inter", "2079:4": "ubuntu" },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:240:688",
     name: "font/weight/medium",
     valuesByMode: { "178:0": "medium", "2079:4": "medium" },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:240:689",
     name: "font/weight/regular",
     valuesByMode: { "178:0": "regular", "2079:4": "regular" },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:240:690",
     name: "font/weight/semi-bold",
     valuesByMode: { "178:0": "semibold", "2079:4": "semibold" },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:240:691",
     name: "font/weight/italic",
     valuesByMode: { "178:0": "italic", "2079:4": "italic" },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:240:692",
     name: "font/weight/bold",
     valuesByMode: { "178:0": "bold", "2079:4": "bold" },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:240:693",
     name: "font/weight/extra-bold",
     valuesByMode: { "178:0": "extrabold", "2079:4": "extrabold" },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:240:1155",
@@ -2100,6 +2329,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:240:1156",
@@ -2108,6 +2338,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:240:1157",
@@ -2116,6 +2347,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:794" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:794" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:240:1158",
@@ -2124,6 +2356,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:803" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:803" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:240:1159",
@@ -2132,6 +2365,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:812" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:812" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:240:1511",
@@ -2140,6 +2374,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:240:1512",
@@ -2148,6 +2383,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:812" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:812" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:240:1513",
@@ -2156,6 +2392,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:240:1514",
@@ -2164,6 +2401,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:794" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:794" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:240:1515",
@@ -2172,6 +2410,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:803" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:803" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:241:182",
@@ -2180,6 +2419,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:8" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:8" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:241:183",
@@ -2188,6 +2428,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:241:185",
@@ -2196,6 +2437,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:2" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:2" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:241:187",
@@ -2204,6 +2446,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:9" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:9" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:241:188",
@@ -2212,6 +2455,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:903" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:903" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:241:189",
@@ -2220,6 +2464,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:795" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:795" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:241:190",
@@ -2228,6 +2473,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:804" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:804" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:241:191",
@@ -2236,6 +2482,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:813" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:813" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:241:192",
@@ -2244,6 +2491,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:798" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:798" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:241:193",
@@ -2252,6 +2500,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:807" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:807" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:241:194",
@@ -2260,46 +2509,55 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:816" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:816" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:246:12",
     name: "font/size/xs",
     valuesByMode: { "178:0": 12, "2079:4": 12 },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:246:13",
     name: "font/size/sm",
     valuesByMode: { "178:0": 14, "2079:4": 14 },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:246:14",
     name: "font/size/md",
     valuesByMode: { "178:0": 16, "2079:4": 16 },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:246:15",
     name: "font/size/lg",
     valuesByMode: { "178:0": 20, "2079:4": 20 },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:246:16",
     name: "font/size/xl",
     valuesByMode: { "178:0": 24, "2079:4": 24 },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:246:17",
     name: "font/size/2xl",
     valuesByMode: { "178:0": 32, "2079:4": 32 },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:246:18",
     name: "font/size/3xl",
     valuesByMode: { "178:0": 40, "2079:4": 40 },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:246:19",
     name: "font/size/4xl",
     valuesByMode: { "178:0": 72, "2079:4": 72 },
+    variableCollectionId: "VariableCollectionId:178:1251",
   },
   {
     id: "VariableID:326:80",
@@ -2308,6 +2566,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:326:331",
@@ -2316,6 +2575,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:655:4464" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:328:332",
@@ -2324,6 +2584,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:328:333",
@@ -2332,6 +2593,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:328:334",
@@ -2340,6 +2602,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:328:336",
@@ -2348,6 +2611,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:328:337",
@@ -2356,6 +2620,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:328:338",
@@ -2364,6 +2629,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:328:339",
@@ -2372,6 +2638,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:332:627",
@@ -2380,6 +2647,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:655:4463" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:332:644",
@@ -2388,6 +2656,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:332:645",
@@ -2396,6 +2665,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:332:647",
@@ -2404,6 +2674,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:655:4468" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:655:4468" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:332:649",
@@ -2412,6 +2683,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:332:650",
@@ -2420,6 +2692,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:1387:251" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:1387:251" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:333:651",
@@ -2428,6 +2701,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3074" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3074" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:333:1253",
@@ -2436,6 +2710,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3074" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:333:1254",
@@ -2444,6 +2719,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3071" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3071" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:333:1255",
@@ -2452,6 +2728,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:333:1256",
@@ -2460,6 +2737,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:333:1257",
@@ -2468,6 +2746,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:333:1259",
@@ -2476,6 +2755,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:333:1260",
@@ -2484,6 +2764,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:655:4465" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:655:4465" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:333:1261",
@@ -2492,6 +2773,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:333:1262",
@@ -2500,6 +2782,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:333:1263",
@@ -2508,6 +2791,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:333:1270",
@@ -2516,6 +2800,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:335:1271",
@@ -2524,6 +2809,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:335:1272",
@@ -2532,6 +2818,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:335:1273",
@@ -2540,6 +2827,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:335:1277",
@@ -2548,6 +2836,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:335:1278",
@@ -2556,6 +2845,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:335:1279",
@@ -2564,6 +2854,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:335:1280",
@@ -2572,6 +2863,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:335:1281",
@@ -2580,6 +2872,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:335:1282",
@@ -2588,6 +2881,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:339:1350",
@@ -2596,6 +2890,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:339:1351",
@@ -2604,6 +2899,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:339:1352",
@@ -2612,6 +2908,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:339:1355",
@@ -2620,6 +2917,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:339:1356",
@@ -2628,6 +2926,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:339:1357",
@@ -2636,6 +2935,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:339:1358",
@@ -2644,6 +2944,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:340:1359",
@@ -2652,6 +2953,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:341:1448",
@@ -2660,6 +2962,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:341:1450",
@@ -2668,6 +2971,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:655:4468" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:655:4468" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:341:1452",
@@ -2676,6 +2980,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:341:1454",
@@ -2684,6 +2989,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:341:1458",
@@ -2692,6 +2998,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:341:1459",
@@ -2700,6 +3007,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:345:1464",
@@ -2708,6 +3016,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:345:1465",
@@ -2716,6 +3025,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:345:1466",
@@ -2724,6 +3034,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:345:1467",
@@ -2732,6 +3043,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:345:1468",
@@ -2740,6 +3052,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3080" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3080" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:345:1469",
@@ -2748,6 +3061,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:345:1514",
@@ -2756,6 +3070,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:345:1515",
@@ -2764,6 +3079,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:345:1516",
@@ -2772,6 +3088,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:345:1517",
@@ -2780,6 +3097,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:345:1518",
@@ -2788,6 +3106,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3074" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3074" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:348:1653",
@@ -2796,6 +3115,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:348:1654",
@@ -2804,6 +3124,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:348:1655",
@@ -2812,6 +3133,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:348:1656",
@@ -2820,6 +3142,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:356:1530",
@@ -2828,6 +3151,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:356:1531",
@@ -2836,6 +3160,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:359:302",
@@ -2844,6 +3169,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:359:303",
@@ -2852,6 +3178,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:359:304",
@@ -2860,6 +3187,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:359:305",
@@ -2868,6 +3196,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:655:4465" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:655:4465" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:359:306",
@@ -2876,6 +3205,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:655:4465" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:655:4465" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:359:307",
@@ -2884,6 +3214,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:655:4471" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:655:4471" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:359:308",
@@ -2892,6 +3223,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3089" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3089" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:360:1366",
@@ -2900,6 +3232,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:360:1367",
@@ -2908,6 +3241,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:5" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:360:1369",
@@ -2916,6 +3250,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:4" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:4" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:360:1370",
@@ -2924,6 +3259,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:360:1374",
@@ -2932,6 +3268,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:360:1376",
@@ -2940,6 +3277,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:360:1396",
@@ -2948,6 +3286,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:407:102",
@@ -2956,6 +3295,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:411:1168",
@@ -2964,151 +3304,181 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:648:3070",
     name: "size/size-0",
     valuesByMode: { "1:0": 0 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3071",
     name: "size/size-0125",
     valuesByMode: { "1:0": 1 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3072",
     name: "size/size-025",
     valuesByMode: { "1:0": 2 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3073",
     name: "size/size-050",
     valuesByMode: { "1:0": 4 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3074",
     name: "size/size-075",
     valuesByMode: { "1:0": 6 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3075",
     name: "size/size-100",
     valuesByMode: { "1:0": 8 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3076",
     name: "size/size-200",
     valuesByMode: { "1:0": 16 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3077",
     name: "size/size-300",
     valuesByMode: { "1:0": 24 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3078",
     name: "size/size-400",
     valuesByMode: { "1:0": 32 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3079",
     name: "size/size-500",
     valuesByMode: { "1:0": 40 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3080",
     name: "size/size-600",
     valuesByMode: { "1:0": 48 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3081",
     name: "size/size-700",
     valuesByMode: { "1:0": 56 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3082",
     name: "size/size-800",
     valuesByMode: { "1:0": 64 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3083",
     name: "size/size-900",
     valuesByMode: { "1:0": 72 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3084",
     name: "size/size-1000",
     valuesByMode: { "1:0": 80 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3085",
     name: "size/size-1100",
     valuesByMode: { "1:0": 88 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3086",
     name: "size/size-1200",
     valuesByMode: { "1:0": 96 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3087",
     name: "size/size-1300",
     valuesByMode: { "1:0": 104 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3088",
     name: "size/size-1400",
     valuesByMode: { "1:0": 112 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3089",
     name: "size/size-1500",
     valuesByMode: { "1:0": 120 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3090",
     name: "size/size-1600",
     valuesByMode: { "1:0": 128 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3091",
     name: "size/size-1700",
     valuesByMode: { "1:0": 136 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3092",
     name: "size/size-1800",
     valuesByMode: { "1:0": 144 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3093",
     name: "size/size-1900",
     valuesByMode: { "1:0": 152 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:3094",
     name: "size/size-2000",
     valuesByMode: { "1:0": 160 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:648:4042",
     name: "size/size-full",
     valuesByMode: { "1:0": 999 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:655:4463",
     name: "size/size-125",
     valuesByMode: { "1:0": 10 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:655:4464",
     name: "size/size-150",
     valuesByMode: { "1:0": 12 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:655:4465",
     name: "size/size-175",
     valuesByMode: { "1:0": 14 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:655:4466",
@@ -3117,16 +3487,19 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:655:4468",
     name: "size/size-250",
     valuesByMode: { "1:0": 20 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:655:4471",
     name: "size/size-3000",
     valuesByMode: { "1:0": 240 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:738:927",
@@ -3135,6 +3508,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:738:1001",
@@ -3143,6 +3517,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:738:1002",
@@ -3151,6 +3526,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:738:1003",
@@ -3159,6 +3535,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:738:1005",
@@ -3167,6 +3544,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:738:1006",
@@ -3175,6 +3553,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:738:1007",
@@ -3183,6 +3562,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:792:928",
@@ -3191,6 +3571,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:655:4464" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:655:4464" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:792:929",
@@ -3199,6 +3580,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:655:4468" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:655:4468" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1136:12",
@@ -3207,6 +3589,7 @@ export const variablesFixtures = [
       "18:0": { r: 1, g: 1, b: 1, a: 0 },
       "2079:3": { r: 1, g: 1, b: 1, a: 0 },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1136:165",
@@ -3215,6 +3598,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:906" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:906" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1136:433",
@@ -3223,6 +3607,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3070" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3070" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1136:434",
@@ -3231,6 +3616,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1144:1512",
@@ -3239,6 +3625,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1144:1513",
@@ -3247,6 +3634,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1144:1603",
@@ -3255,6 +3643,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1147:1625",
@@ -3263,6 +3652,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1147:1626",
@@ -3271,6 +3661,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:904" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:904" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1147:1627",
@@ -3279,6 +3670,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1147:1629",
@@ -3287,6 +3679,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1147:1630",
@@ -3295,6 +3688,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1147:2366",
@@ -3303,6 +3697,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1147:2568",
@@ -3311,6 +3706,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1147:2569",
@@ -3319,6 +3715,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1163:207",
@@ -3327,6 +3724,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1163:208",
@@ -3335,6 +3733,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3080" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3080" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1163:209",
@@ -3343,6 +3742,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3081" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3081" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1163:216",
@@ -3351,6 +3751,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1163:218",
@@ -3359,6 +3760,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3080" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3080" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1163:219",
@@ -3367,6 +3769,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3081" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3081" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1163:220",
@@ -3375,6 +3778,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1163:221",
@@ -3383,6 +3787,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3080" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3080" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1163:222",
@@ -3391,6 +3796,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3081" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3081" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1163:223",
@@ -3399,6 +3805,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1163:224",
@@ -3407,6 +3814,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1202:3685",
@@ -3415,6 +3823,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1231:4154",
@@ -3423,6 +3832,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1231:4155",
@@ -3431,6 +3841,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1231:4161",
@@ -3439,6 +3850,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1231:4162",
@@ -3447,6 +3859,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1231:4163",
@@ -3455,6 +3868,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1231:4164",
@@ -3463,6 +3877,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1231:4165",
@@ -3471,6 +3886,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3081" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3081" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1274:631",
@@ -3479,6 +3895,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1274:632",
@@ -3487,6 +3904,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1274:633",
@@ -3495,6 +3913,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:803" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:803" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1274:634",
@@ -3503,6 +3922,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:812" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:812" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1274:635",
@@ -3511,6 +3931,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1274:636",
@@ -3519,6 +3940,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1274:637",
@@ -3527,6 +3949,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1274:638",
@@ -3535,6 +3958,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1274:639",
@@ -3543,6 +3967,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:794" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:794" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1279:336",
@@ -3551,6 +3976,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1279:349",
@@ -3559,6 +3985,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:299",
@@ -3567,6 +3994,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:300",
@@ -3575,6 +4003,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:301",
@@ -3583,6 +4012,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:794" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:794" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:302",
@@ -3591,6 +4021,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:812" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:812" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:303",
@@ -3599,6 +4030,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:905" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:905" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:304",
@@ -3607,6 +4039,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:305",
@@ -3615,6 +4048,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:798" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:798" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:306",
@@ -3623,6 +4057,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:816" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:816" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:307",
@@ -3631,6 +4066,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:905" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:905" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:308",
@@ -3639,6 +4075,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:903" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:903" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:309",
@@ -3647,6 +4084,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:310",
@@ -3655,6 +4093,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1342:312",
@@ -3663,6 +4102,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:599",
@@ -3671,6 +4111,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:903" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:903" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:600",
@@ -3679,6 +4120,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:601",
@@ -3687,6 +4129,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:602",
@@ -3695,6 +4138,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:3" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:603",
@@ -3703,6 +4147,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:604",
@@ -3711,6 +4156,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:605",
@@ -3719,6 +4165,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:606",
@@ -3727,6 +4174,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:1353:608" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:1353:608" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:607",
@@ -3735,11 +4183,13 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:4042" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:608",
     name: "size/size-0375",
     valuesByMode: { "1:0": 3 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:1353:609",
@@ -3748,6 +4198,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:610",
@@ -3756,6 +4207,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:611",
@@ -3764,6 +4216,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:1353:608" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:1353:608" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1353:612",
@@ -3772,6 +4225,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1360:565",
@@ -3780,6 +4234,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:902" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1360:568",
@@ -3788,6 +4243,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:905" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:905" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1360:575",
@@ -3796,6 +4252,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1360:576",
@@ -3804,6 +4261,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3073" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1360:577",
@@ -3812,6 +4270,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3084" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3084" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1360:578",
@@ -3820,6 +4279,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1360:579",
@@ -3828,6 +4288,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1360:580",
@@ -3836,6 +4297,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3074" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3074" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1365:208",
@@ -3844,6 +4306,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1365:209",
@@ -3852,6 +4315,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:10:308" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1365:210",
@@ -3860,6 +4324,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:35:814" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:35:814" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1365:211",
@@ -3868,6 +4333,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1365:213",
@@ -3876,6 +4342,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1365:214",
@@ -3884,6 +4351,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1365:220",
@@ -3892,6 +4360,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3079" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1365:244",
@@ -3900,11 +4369,13 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:899" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1387:251",
     name: "size/size-01875",
     valuesByMode: { "1:0": 1.5 },
+    variableCollectionId: "VariableCollectionId:1:41",
   },
   {
     id: "VariableID:1393:168",
@@ -3913,6 +4384,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1435:3103",
@@ -3921,6 +4393,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1438:3104",
@@ -3929,6 +4402,7 @@ export const variablesFixtures = [
       "18:0": { r: 1, g: 1, b: 1, a: 1 },
       "2079:3": { r: 1, g: 1, b: 1, a: 1 },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1457:5339",
@@ -3937,6 +4411,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:13:6" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1457:5340",
@@ -3945,6 +4420,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:901" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1460:669",
@@ -3953,6 +4429,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:655:4463" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:655:4463" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1460:670",
@@ -3961,6 +4438,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1665:164",
@@ -3969,6 +4447,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1665:165",
@@ -3977,6 +4456,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1665:166",
@@ -3985,6 +4465,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1665:167",
@@ -3993,6 +4474,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3077" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1793:1343",
@@ -4001,6 +4483,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1803:115",
@@ -4009,6 +4492,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3072" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1900:1838",
@@ -4017,6 +4501,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:18:900" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1914:675",
@@ -4025,6 +4510,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:6:529" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:6:529" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1934:4064",
@@ -4033,6 +4519,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3075" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1934:4065",
@@ -4041,6 +4528,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:655:4464" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:655:4464" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1934:4066",
@@ -4049,6 +4537,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3076" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1934:4067",
@@ -4057,6 +4546,7 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3084" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3084" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
   {
     id: "VariableID:1993:275",
@@ -4065,5 +4555,6 @@ export const variablesFixtures = [
       "18:0": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
       "2079:3": { type: "VARIABLE_ALIAS", id: "VariableID:648:3078" },
     },
+    variableCollectionId: "VariableCollectionId:18:890",
   },
 ];

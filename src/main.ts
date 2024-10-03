@@ -69,7 +69,7 @@ export default async function () {
       jsonVariables = merge(jsonVariables, object);
     });
 
-    emit("CONVERTION_DONE", jsonVariables);
+    emit("CONVERSION_DONE", jsonVariables);
   });
 
   const collections = await figma.variables.getLocalVariableCollectionsAsync();

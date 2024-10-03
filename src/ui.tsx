@@ -38,7 +38,7 @@ function Plugin({ collections }: PluginProps) {
   );
 
   useEffect(() => {
-    on<ConvertionDoneHandler>("CONVERTION_DONE", setJson);
+    on<ConvertionDoneHandler>("CONVERSION_DONE", setJson);
   }, []);
 
   const convertVariablesToJson = () => {

@@ -1,4 +1,4 @@
-import { convertAllVariablesToJson } from "./main";
+import { convertAllVariablesToJson } from "./convertVariablesToJson";
 
 describe("convertVariablesToJson", () => {
   it("brand 1 light mode", async () => {

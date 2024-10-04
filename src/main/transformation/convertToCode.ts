@@ -1,7 +1,7 @@
-import * as prettier from "prettier";
 import { transformBracesToVariables } from "./transformBracesToVariables";
 import { convertAllVariablesToJsonCollections } from "../convertVariablesToJsonWithCollections";
 import { ModesType } from "../../common/types";
+import { formatCode } from "./formatter";
 
 export const convertToCode = async (modes: ModesType) => {
   const wholeObject = await convertAllVariablesToJsonCollections(modes);
@@ -14,5 +14,5 @@ export const convertToCode = async (modes: ModesType) => {
   const variablesSplittedWithLineSkip = allVariables.join("\n\n")
   const code = transformBracesToVariables(variablesSplittedWithLineSkip);
 
-  return prettier.format(code, { parser: "babel" });
+  return formatCode(code);
 };

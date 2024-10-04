@@ -1,6 +1,8 @@
 import { collectionsFixtures } from "./collections-fixtures";
 import { variablesFixtures } from "./variables-fixtures";
 
+jest.mock('../main/transformation/formatter')
+
 // @ts-expect-error
 global.figma = {
     ui: {

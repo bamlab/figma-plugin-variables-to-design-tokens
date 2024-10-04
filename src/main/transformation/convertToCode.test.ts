@@ -1,8 +1,6 @@
 import { convertToCode } from "./convertToCode";
 
 describe("convertToCode", () => {
- 
-
   it("brand 1 light mode", async () => {
     const result = await convertToCode([
       {

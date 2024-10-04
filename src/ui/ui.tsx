@@ -5,6 +5,7 @@ import {
   Columns,
   Container,
   Layer,
+  LoadingIndicator,
   render,
   SegmentedControl,
   Text,
@@ -17,18 +18,26 @@ import { ConvertHandler, ConvertionDoneHandler } from "../common/types";
 import { CollectionType } from "./types";
 import { findModeId } from "./repository";
 import { useModesSelection } from "./useSelectMode";
+import { CodeBlock } from "./components/CodeBlock";
+import { useDownloadOneTypescriptFile } from "./download";
 
 export interface PluginProps {
   collections: CollectionType[];
 }
 
 function Plugin({ collections }: PluginProps) {
+  const [isLoading, setIsLoading] = useState(false);
   const [code, setCode] = useState<string | null>(null);
 
   const { selectedModes, setSelectedModes } = useModesSelection(collections);
 
+  const onDone: ConvertionDoneHandler["handler"] = (arg) => {
+    setCode(arg);
+    setIsLoading(false);
+  };
+
   useEffect(() => {
-    on<ConvertionDoneHandler>("CONVERSION_DONE", setCode);
+    on<ConvertionDoneHandler>("CONVERSION_DONE", onDone);
   }, []);
 
   const convertVariablesToJson = () => {
@@ -38,6 +47,7 @@ function Plugin({ collections }: PluginProps) {
       modeName: selectedModes[collectionId].name,
     }));
 
+    setIsLoading(true);
     emit<ConvertHandler>("CONVERT_VARIABLES_TO_JSON", modeSelections);
   };
 
@@ -67,84 +77,29 @@ function Plugin({ collections }: PluginProps) {
                 });
                 convertVariablesToJson();
               }}
+              disabled={isLoading}
             />
           </Columns>
           <VerticalSpace space="small" />
         </Container>
       ))}
       <VerticalSpace space="small" />
-      <Button fullWidth onClick={convertVariablesToJson}>
+      <Button disabled={isLoading} fullWidth onClick={convertVariablesToJson}>
         Convert variables to JSON
       </Button>
       <VerticalSpace space="small" />
-      <Button fullWidth onClick={copyInClipboard}>
+      <Button disabled={isLoading} fullWidth onClick={copyInClipboard}>
         Copy in clipboard
       </Button>
       <VerticalSpace space="small" />
-      <Button fullWidth onClick={download}>
+      <Button disabled={isLoading} fullWidth onClick={download}>
         Download
       </Button>
       <VerticalSpace space="small" />
-      <CodeBlock code={code} />
+      {isLoading ? <LoadingIndicator /> : <CodeBlock code={code} />}
       <VerticalSpace space="small" />
     </Container>
   );
 }
 
-const CodeBlock = ({ code }: { code: string | null | undefined }) => {
-  if (!code) return null;
-
-  return (
-    <div>
-      <div style={{ marginTop: 16, fontSize: 20 }}>Exported code preview:</div>
-      <div
-        style={{
-          backgroundColor: "var(--figma-color-bg-brand-tertiary)",
-          marginTop: 8,
-          padding: 16,
-          width: "100%",
-          userSelect: "text",
-          wordBreak: "break-all",
-        }}
-      >
-        <Code>{code}</Code>
-      </div>
-    </div>
-  );
-};
-
 export default render(Plugin);
-
-const getBaseFileNameFromSelectedModes = (selectedModes: {
-  [key: string]: { modeId: string; name: string };
-}) => {
-  return (
-    Array.from(
-      new Set(Object.values(selectedModes).map((mode) => mode.name))
-    ).join(".") + ".tokens.ts"
-  );
-};
-
-function downloadTypescriptFile(code: string, filename: string) {
-  const file = new Blob([code], { type: "text/plain" });
-  const element = document.createElement("a");
-  element.href = URL.createObjectURL(file);
-  element.download = filename;
-  document.body.appendChild(element);
-  element.click();
-  element.remove();
-}
-
-function useDownloadOneTypescriptFile(
-  selectedModes: { [key: string]: { modeId: string; name: string } },
-  code: string | null
-) {
-  return () => {
-    const baseFileName = getBaseFileNameFromSelectedModes(selectedModes);
-
-    if (!code) {
-      throw new Error("No code to download!");
-    }
-    downloadTypescriptFile(code, baseFileName);
-  };
-}

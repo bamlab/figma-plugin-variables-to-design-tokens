@@ -31,13 +31,11 @@ function Plugin({ collections }: PluginProps) {
 
   const { selectedModes, setSelectedModes } = useModesSelection(collections);
 
-  const onDone: ConvertionDoneHandler["handler"] = (arg) => {
-    setCode(arg);
-    setIsLoading(false);
-  };
-
   useEffect(() => {
-    on<ConvertionDoneHandler>("CONVERSION_DONE", onDone);
+    on<ConvertionDoneHandler>("CONVERSION_DONE", (result) => {
+      setCode(result);
+      setIsLoading(false);
+    });
   }, []);
 
   const convertVariablesToJson = () => {
@@ -50,6 +48,10 @@ function Plugin({ collections }: PluginProps) {
     setIsLoading(true);
     emit<ConvertHandler>("CONVERT_VARIABLES_TO_JSON", modeSelections);
   };
+
+  useEffect(() => {
+    convertVariablesToJson();
+  }, [selectedModes])
 
   const copyInClipboard = () => {
     if (!code) return;
@@ -83,10 +85,6 @@ function Plugin({ collections }: PluginProps) {
           <VerticalSpace space="small" />
         </Container>
       ))}
-      <VerticalSpace space="small" />
-      <Button disabled={isLoading} fullWidth onClick={convertVariablesToJson}>
-        Convert variables to JSON
-      </Button>
       <VerticalSpace space="small" />
       <Button disabled={isLoading} fullWidth onClick={copyInClipboard}>
         Copy in clipboard

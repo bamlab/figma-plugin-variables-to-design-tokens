@@ -37,6 +37,7 @@ function Plugin({ collections }: PluginProps) {
       modeId: selectedModes[collectionId].modeId,
       modeName: selectedModes[collectionId].name,
     }));
+
     emit<ConvertHandler>("CONVERT_VARIABLES_TO_JSON", modeSelections);
   };
 
@@ -46,21 +47,7 @@ function Plugin({ collections }: PluginProps) {
   };
 
   // TODO Force a conversion and wait for it to be ready
-  const download = () => {
-    const fileName = Array.from(
-      new Set(Object.values(selectedModes).map((mode) => mode.name))
-    ).join(".");
-    if (!code) {
-      throw new Error("No code to download!");
-    }
-    const file = new Blob([code], { type: "text/plain" });
-    const element = document.createElement("a");
-    element.href = URL.createObjectURL(file);
-    element.download = `${fileName}.tokens.ts`;
-    document.body.appendChild(element);
-    element.click();
-    element.remove();
-  };
+  const download = useDownloadOneTypescriptFile(selectedModes, code);
 
   return (
     <Container space="medium">
@@ -109,7 +96,7 @@ const CodeBlock = ({ code }: { code: string | null | undefined }) => {
 
   return (
     <div>
-      <div style={{ marginTop: 16, fontSize: 20}}>Exported code preview:</div>
+      <div style={{ marginTop: 16, fontSize: 20 }}>Exported code preview:</div>
       <div
         style={{
           backgroundColor: "var(--figma-color-bg-brand-tertiary)",
@@ -127,3 +114,37 @@ const CodeBlock = ({ code }: { code: string | null | undefined }) => {
 };
 
 export default render(Plugin);
+
+const getBaseFileNameFromSelectedModes = (selectedModes: {
+  [key: string]: { modeId: string; name: string };
+}) => {
+  return (
+    Array.from(
+      new Set(Object.values(selectedModes).map((mode) => mode.name))
+    ).join(".") + ".tokens.ts"
+  );
+};
+
+function downloadTypescriptFile(code: string, filename: string) {
+  const file = new Blob([code], { type: "text/plain" });
+  const element = document.createElement("a");
+  element.href = URL.createObjectURL(file);
+  element.download = filename;
+  document.body.appendChild(element);
+  element.click();
+  element.remove();
+}
+
+function useDownloadOneTypescriptFile(
+  selectedModes: { [key: string]: { modeId: string; name: string } },
+  code: string | null
+) {
+  return () => {
+    const baseFileName = getBaseFileNameFromSelectedModes(selectedModes);
+
+    if (!code) {
+      throw new Error("No code to download!");
+    }
+    downloadTypescriptFile(code, baseFileName);
+  };
+}

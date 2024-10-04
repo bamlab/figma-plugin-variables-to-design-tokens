@@ -11,7 +11,6 @@ import {
 import { emit, on } from "@create-figma-plugin/utilities";
 import { h } from "preact";
 import { useEffect, useState } from "preact/hooks";
-import ReactJson from "react-json-view";
 import { ConvertHandler, ConvertionDoneHandler } from "../common/types";
 import { TargetedEvent } from "preact/compat";
 
@@ -24,8 +23,8 @@ export interface PluginProps {
 }
 
 function Plugin({ collections }: PluginProps) {
-  const [json, setJson] = useState({});
   const [code, setCode] = useState<string | null>(null);
+
   const [selectedModes, setSelectedModes] = useState<{
     [key: string]: { modeId: string; name: string };
   }>(
@@ -52,18 +51,21 @@ function Plugin({ collections }: PluginProps) {
   };
 
   const copyInClipboard = () => {
-    const jsonText = JSON.stringify(json, null, 2);
-    navigator.clipboard.writeText(jsonText);
+    if (!code) return;
+    navigator.clipboard.writeText(code);
   };
 
   const download = () => {
     const fileName = Array.from(
       new Set(Object.values(selectedModes).map((mode) => mode.name))
     ).join(".");
-    const file = new Blob([JSON.stringify(json)], { type: "application/json" });
+    if (!code) {
+      throw new Error("No code to download!");
+    }
+    const file = new Blob([code], { type: "text/plain" });
     const element = document.createElement("a");
     element.href = URL.createObjectURL(file);
-    element.download = `${fileName}.tokens.json`;
+    element.download = `${fileName}.tokens.ts`;
     document.body.appendChild(element);
     element.click();
     element.remove();
@@ -90,14 +92,15 @@ function Plugin({ collections }: PluginProps) {
             <SegmentedControl
               options={modes.map(({ name }) => ({ value: name }))}
               value={selectedModes?.[id]?.name}
-              onChange={(event) =>
+              onChange={(event) => {
                 handleChange(
                   event,
                   id,
                   modes.find((mode) => mode.name === event.currentTarget.value)
                     ?.modeId ?? ""
-                )
-              }
+                );
+                convertVariablesToJson();
+              }}
             />
           </Columns>
           <VerticalSpace space="small" />
@@ -116,16 +119,7 @@ function Plugin({ collections }: PluginProps) {
         Download
       </Button>
       <VerticalSpace space="small" />
-      <ReactJson
-        displayDataTypes={false}
-        enableClipboard={false}
-        theme="apathy"
-        src={json}
-      />
-
-      <div>
-        {code}
-      </div>
+      <div>{code}</div>
       <VerticalSpace space="small" />
     </Container>
   );

@@ -16,5 +16,5 @@ export default async function () {
     modes: modes.map(({ modeId, name }) => ({ modeId, name })),
   }));
 
-  showUI({ height: 1000, width: 1000 }, { collections: uiCollections });
+  showUI({ height: 500, width: 800 }, { collections: uiCollections });
 }

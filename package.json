@@ -12,7 +12,6 @@
     "preact": ">=10",
     "prettier": "^2.8.8",
     "prismjs": "1.29.0",
-    "react-json-view": "^1.21.3",
     "react-simple-code-editor": "0.13.1",
     "rgb-hex": "^4.1.0"
   },

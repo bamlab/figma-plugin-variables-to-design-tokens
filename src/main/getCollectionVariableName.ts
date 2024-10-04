@@ -1,4 +1,4 @@
-import { toCamelCaseVariable } from "./toVariableName";
+import { toCamelCaseVariable } from "./transformation/toVariableName";
 
 export const getCollectionVariableName = async (collectionId: string): Promise<string> => {
     const collection = await figma.variables.getVariableCollectionByIdAsync(collectionId)

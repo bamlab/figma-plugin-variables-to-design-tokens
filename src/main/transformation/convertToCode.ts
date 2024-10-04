@@ -1,7 +1,7 @@
 import * as prettier from "prettier";
-import { ModesType } from "../common/types";
-import { convertAllVariablesToJsonCollections } from "./convertVariablesToJsonWithCollections";
 import { transformBracesToVariables } from "./transformBracesToVariables";
+import { convertAllVariablesToJsonCollections } from "../convertVariablesToJsonWithCollections";
+import { ModesType } from "../../common/types";
 
 export const convertToCode = async (modes: ModesType) => {
   const wholeObject = await convertAllVariablesToJsonCollections(modes);

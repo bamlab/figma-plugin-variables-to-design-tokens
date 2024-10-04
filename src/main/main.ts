@@ -1,13 +1,12 @@
 import { emit, on, showUI } from "@create-figma-plugin/utilities";
 import { ConvertHandler, ModesType } from "../common/types";
-import { convertAllVariablesToJson } from "./convertVariablesToJson";
-import { convertAllVariablesToJsonCollections } from "./convertVariablesToJsonWithCollections";
+import { convertToCode } from "./transformation/convertToCode";
 
 export default async function () {
   on<ConvertHandler>("CONVERT_VARIABLES_TO_JSON", async (modes) => {
-    const jsonVariables = await convertAllVariablesToJsonCollections(modes)
+    const code = await convertToCode(modes)
 
-    emit("CONVERSION_DONE", jsonVariables);
+    emit("CONVERSION_DONE", code);
   });
 
   const collections = await figma.variables.getLocalVariableCollectionsAsync();

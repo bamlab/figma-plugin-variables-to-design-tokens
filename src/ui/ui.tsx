@@ -25,6 +25,7 @@ export interface PluginProps {
 
 function Plugin({ collections }: PluginProps) {
   const [json, setJson] = useState({});
+  const [code, setCode] = useState<string | null>(null);
   const [selectedModes, setSelectedModes] = useState<{
     [key: string]: { modeId: string; name: string };
   }>(
@@ -38,7 +39,7 @@ function Plugin({ collections }: PluginProps) {
   );
 
   useEffect(() => {
-    on<ConvertionDoneHandler>("CONVERSION_DONE", setJson);
+    on<ConvertionDoneHandler>("CONVERSION_DONE", setCode);
   }, []);
 
   const convertVariablesToJson = () => {
@@ -121,6 +122,10 @@ function Plugin({ collections }: PluginProps) {
         theme="apathy"
         src={json}
       />
+
+      <div>
+        {code}
+      </div>
       <VerticalSpace space="small" />
     </Container>
   );

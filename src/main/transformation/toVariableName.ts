@@ -1,5 +1,5 @@
 import camelCase from 'lodash.camelcase';
-import { replaceSpecialCharacters } from './lib/replace-special-characters';
+import { replaceSpecialCharacters } from '../lib/replace-special-characters';
 
 // Function to strip leading non-letter characters
 const stripLeadingNonLetters = (str: string): string => {

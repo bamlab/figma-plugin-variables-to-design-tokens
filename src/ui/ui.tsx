@@ -1,8 +1,10 @@
 import "!prismjs/themes/prism.css";
 import {
   Button,
+  Code,
   Columns,
   Container,
+  Layer,
   render,
   SegmentedControl,
   Text,
@@ -12,30 +14,18 @@ import { emit, on } from "@create-figma-plugin/utilities";
 import { h } from "preact";
 import { useEffect, useState } from "preact/hooks";
 import { ConvertHandler, ConvertionDoneHandler } from "../common/types";
-import { TargetedEvent } from "preact/compat";
+import { CollectionType } from "./types";
+import { findModeId } from "./repository";
+import { useModesSelection } from "./useSelectMode";
 
 export interface PluginProps {
-  collections: {
-    id: string;
-    name: string;
-    modes: Array<{ modeId: string; name: string }>;
-  }[];
+  collections: CollectionType[];
 }
 
 function Plugin({ collections }: PluginProps) {
   const [code, setCode] = useState<string | null>(null);
 
-  const [selectedModes, setSelectedModes] = useState<{
-    [key: string]: { modeId: string; name: string };
-  }>(
-    collections.reduce(
-      (acc, { id, modes }) => ({
-        ...acc,
-        [id]: { modeId: modes[0].modeId, name: modes[0].name },
-      }),
-      {}
-    )
-  );
+  const { selectedModes, setSelectedModes } = useModesSelection(collections);
 
   useEffect(() => {
     on<ConvertionDoneHandler>("CONVERSION_DONE", setCode);
@@ -55,6 +45,7 @@ function Plugin({ collections }: PluginProps) {
     navigator.clipboard.writeText(code);
   };
 
+  // TODO Force a conversion and wait for it to be ready
   const download = () => {
     const fileName = Array.from(
       new Set(Object.values(selectedModes).map((mode) => mode.name))
@@ -71,17 +62,6 @@ function Plugin({ collections }: PluginProps) {
     element.remove();
   };
 
-  const handleChange = (
-    event: TargetedEvent<HTMLInputElement>,
-    collectionId: string,
-    modeId: string
-  ) => {
-    setSelectedModes((prev) => ({
-      ...prev,
-      [collectionId]: { modeId, name: event.currentTarget.value },
-    }));
-  };
-
   return (
     <Container space="medium">
       <VerticalSpace space="small" />
@@ -92,13 +72,12 @@ function Plugin({ collections }: PluginProps) {
             <SegmentedControl
               options={modes.map(({ name }) => ({ value: name }))}
               value={selectedModes?.[id]?.name}
-              onChange={(event) => {
-                handleChange(
-                  event,
-                  id,
-                  modes.find((mode) => mode.name === event.currentTarget.value)
-                    ?.modeId ?? ""
-                );
+              onChange={({ currentTarget: { value } }) => {
+                setSelectedModes({
+                  name: value,
+                  collectionId: id,
+                  modeId: findModeId(modes, value),
+                });
                 convertVariablesToJson();
               }}
             />
@@ -119,10 +98,32 @@ function Plugin({ collections }: PluginProps) {
         Download
       </Button>
       <VerticalSpace space="small" />
-      <div>{code}</div>
+      <CodeBlock code={code} />
       <VerticalSpace space="small" />
     </Container>
   );
 }
+
+const CodeBlock = ({ code }: { code: string | null | undefined }) => {
+  if (!code) return null;
+
+  return (
+    <div>
+      <div style={{ marginTop: 16, fontSize: 20}}>Exported code preview:</div>
+      <div
+        style={{
+          backgroundColor: "var(--figma-color-bg-brand-tertiary)",
+          marginTop: 8,
+          padding: 16,
+          width: "100%",
+          userSelect: "text",
+          wordBreak: "break-all",
+        }}
+      >
+        <Code>{code}</Code>
+      </div>
+    </div>
+  );
+};
 
 export default render(Plugin);

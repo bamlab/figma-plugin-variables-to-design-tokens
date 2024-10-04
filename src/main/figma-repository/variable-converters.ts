@@ -1,5 +1,5 @@
 import rgbHex from "rgb-hex";
-import { getCollectionVariableName } from "./getCollectionVariableName";
+import { getCollectionVariableName } from "./collections";
 
 const isVariableAlias = (variable: VariableValue): variable is VariableAlias =>
   (variable as VariableAlias).id !== undefined;

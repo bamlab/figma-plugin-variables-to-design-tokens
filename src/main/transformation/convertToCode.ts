@@ -8,7 +8,7 @@ export const convertToCode = async (modes: ModesType) => {
 
   const allVariables = Object.keys(wholeObject).map((key) => {
     // @ts-expect-error
-    return `export const ${key} = ${JSON.stringify(wholeObject[key])}`;
+    return `export const ${key} = ${JSON.stringify(wholeObject[key])} as const`;
   });
 
   const variablesSplittedWithLineSkip = allVariables.join("\n\n")

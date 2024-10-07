@@ -119,7 +119,7 @@ exports[`convertToCode brand 1 light mode 1`] = `
     "size-0375": 3,
     "size-01875": 1.5,
   },
-};
+} as const;
 
 export const foundation = {
   primary: {
@@ -196,7 +196,7 @@ export const foundation = {
     higher: primitives["color"]["grey"]["900"],
     highest: primitives["color"]["grey"]["950"],
   },
-};
+} as const;
 
 export const components = {
   button: {
@@ -672,7 +672,7 @@ export const components = {
     "border-color": foundation["neutral"]["lowest"],
     gap: primitives["size"]["size-100"],
   },
-};
+} as const;
 
 export const typographie = {
   font: {
@@ -696,6 +696,6 @@ export const typographie = {
       "4xl": 72,
     },
   },
-};
+} as const;
 "
 `;

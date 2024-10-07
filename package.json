@@ -35,7 +35,7 @@
       "figma"
     ],
     "id": "react-editor",
-    "name": "Multi-brand variables to design tokens",
+    "name": "BAM Boson Typescript Theme Exporter",
     "main": "src/main/main.ts",
     "ui": "src/ui/ui.tsx"
   }

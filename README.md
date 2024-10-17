@@ -1,4 +1,4 @@
-# React Editor
+# BAM Boson Typescript Theme Exporter
 
 ## Development guide
 

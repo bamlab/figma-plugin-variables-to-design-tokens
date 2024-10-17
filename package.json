@@ -34,7 +34,7 @@
     "editorType": [
       "figma"
     ],
-    "id": "react-editor",
+    "id": "bam-boson-ts-theme-exporter",
     "name": "BAM Boson Typescript Theme Exporter",
     "main": "src/main/main.ts",
     "ui": "src/ui/ui.tsx"
